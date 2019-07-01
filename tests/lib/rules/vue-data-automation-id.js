@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require('../../../lib/rules/data-automation-id'),
+var rule = require('../../../lib/rules/vue-data-automation-id'),
 
   RuleTester = require('eslint').RuleTester
 
@@ -17,7 +17,7 @@ var rule = require('../../../lib/rules/data-automation-id'),
 //------------------------------------------------------------------------------
 
 var ruleTester = new RuleTester()
-ruleTester.run('data-automation-id', rule, {
+ruleTester.run('vue-data-automation-id', rule, {
 
   valid: [
     // give me some code that won't trigger a warning

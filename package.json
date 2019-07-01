@@ -2,6 +2,7 @@
   "name": "eslint-plugin-vue-data-automation-id",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/gufu/eslint-plugin-vue-data-automation-id/issues"
   },
-  "homepage": "https://github.com/gufu/eslint-plugin-vue-data-automation-id#readme"
+  "homepage": "https://github.com/gufu/eslint-plugin-vue-data-automation-id#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "eslint": "^6.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "vue-eslint-parser": "^6.0.4"
+  }
 }
